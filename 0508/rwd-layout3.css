@@ -1,0 +1,23 @@
+.headline{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.desktop-menu{
+    text-align: center;
+    display: block;
+}
+.mobil-menu{
+    text-align: center;
+    display: none;
+}
+.list{
+    display: flex;
+    justify-content: center;
+}
+.item{
+    background-color: pink;
+    flex: none;
+    width: 280px;
+    margin: 10px;
+}
