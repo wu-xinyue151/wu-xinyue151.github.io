@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 >HTML DOM 實際操作</h1>
+    <div id="content">畫面操作</div>
+    <button onclick="change();">點我</button>
+    <script>
+        function change(){
+            //取得標籤物件
+            let elem=document.querySelector("#content");
+            //操作標籤物件
+            elem.innerHTML="New Contene";
+            elem.style.fontSize="30px";//font-size:30px
+            elem.style.color="red";
+        }
+    </script>
+</body>
+</html>
